@@ -9,6 +9,7 @@ EXAMPLE_SERVER = Amber::Server.instance
 EXAMPLE_SERVER.config do |app|
   app.log = ::Logger.new(STDOUT)
   app.log.level = ::Logger::INFO
+  app.port = 3000
 
   pipeline :static do
     plug HTTP::StaticFileHandler.new("./public")
