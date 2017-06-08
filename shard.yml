@@ -1,0 +1,26 @@
+name: AmberWebsocketsExample
+version: 0.1.0
+
+authors:
+  - Nick Franken <shnick@gmail.com>
+
+targets:
+  AmberWebsocketsExample:
+    main: src/AmberWebsocketsExample.cr
+
+crystal: 0.22.0
+
+license: MIT
+
+dependencies:
+  crecto:
+    github: fridgerator/crecto
+    version: 0.6.0
+
+  sqlite3:
+    github: Zhomart/crystal-sqlite3
+    branch: master
+
+  amber:
+    github: Amber-Crystal/amber 
+    branch: master  

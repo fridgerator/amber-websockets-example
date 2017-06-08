@@ -1,0 +1,6 @@
+/doc/
+/lib/
+/bin/
+!/bin/build
+/.shards/
+/docker/AmberWebsocketsExample

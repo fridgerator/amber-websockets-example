@@ -1,0 +1,30 @@
+version: 1.0
+shards:
+  amber:
+    github: Amber-Crystal/amber
+    commit: 82e00790b82aaa2d89d34f0c81f9e43ccb6df358
+
+  crecto:
+    github: fridgerator/crecto
+    version: 0.6.0
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.4.2
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.3.3
+
+  radix:
+    github: luislavena/radix
+    commit: 211418416adba540b594af2260e1b5d0c8877c9e
+
+  slang:
+    github: jeromegn/slang
+    commit: 3b657c48791d72c109fa55ce6431d3042efe2f9c
+
+  sqlite3:
+    github: Zhomart/crystal-sqlite3
+    commit: 960626353ad3324c99920e9d09b20f8b8ee94834
+
