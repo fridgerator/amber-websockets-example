@@ -1,5 +1,13 @@
+body {
+  background-color: #f1f1f1;
+}
+
 .room .messages {
-  border: 1px solid gray;
+  background-color: white;
   height: 500px;
-  width: 300px;
+  overflow: scroll;
+}
+
+.room .messages ul.collection {
+  margin: 0;
 }
