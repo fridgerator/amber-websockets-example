@@ -4,10 +4,10 @@ This is an example of Amber/Crystal using WebSockets.
 
 ## Installation
 
-```
+```bash
  $ crystal deps
 ```
-```
+```bash
  $ amber r
 ```
 
@@ -21,13 +21,13 @@ App ideas: Chat program, issue tracker, collaborative drawing, multiplayer games
 
 Fork, clone, run with ```amber r``` or ```amber w``` to run or watch. Watch will reload (recompile and run) on changes.
 
-```
+```crystal
   socket_endpoint "/chat", UserSocket
 ```
 
 Mounts the socket endpoint (the route that the server will accept WebSocket connections at.)
 
-```
+```crystal
 struct UserSocket < Amber::WebSockets::ClientSocket
   channel "chat_room:*", ChatChannel
 
@@ -42,7 +42,7 @@ end
 This is the User Socket with no authentication.
 Creates channel chat_room.
 
-```
+```crystal
 class ChatChannel < Amber::WebSockets::Channel
   def handle_joined
   end
@@ -67,5 +67,5 @@ For information on how the frontend works, please see public/js/main.js. It's to
 
 ## Contributors
 
-- [[fridgerator]](https://github.com/[fridgerator]) Nick Franken - creator, maintainer
-- [[mixflame]](https://github.com/[mixflame]) Jon Silverman - documentation
+- [fridgerator](https://github.com/fridgerator) Nick Franken - creator, maintainer
+- [mixflame](https://github.com/mixflame) Jon Silverman - documentation
