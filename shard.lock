@@ -20,6 +20,10 @@ shards:
     github: luislavena/radix
     commit: 211418416adba540b594af2260e1b5d0c8877c9e
 
+  redis:
+    github: stefanwille/crystal-redis
+    version: 1.8.0
+
   slang:
     github: jeromegn/slang
     commit: 3b657c48791d72c109fa55ce6431d3042efe2f9c
