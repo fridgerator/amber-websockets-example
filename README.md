@@ -59,11 +59,10 @@ For information on how the frontend works, please see public/js/main.js. It's to
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/AmberWebsocketsExample/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
+1. Fork it ( https://github.com/fridgerator/AmberWebsocketsExample/fork )
+2. Make your edits to master branch
+3. Commit and push to your fork
+4. Open and create a pull request
 
 ## Contributors
 
